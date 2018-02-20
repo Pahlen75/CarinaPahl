@@ -6,7 +6,7 @@
     <title>My web project</title>
     <style>
     
-  body {background-color: #d9d9d9;
+ body {background-color: #d9d9d9;
 }
 
 .mig {
@@ -103,20 +103,26 @@ a {
 
 .logosparent {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
+	margin-left: 450px;
 }
 
 .logosbaby {
   display: flex;
   justify-content: center;
-  margin: 50px;
+  margin: 30px;
 }
+
+.small-img {
+	max-height: 30px;
+}
+
 
     </style>
   </head>
   <body>
   
-   <div class="intro">
+<div class="intro">
   
 <img class="mig" src= "https://cdn-images-1.medium.com/fit/c/200/200/0*7Y6SqgCAftxZYxSO." alt="picture of me"/> 
 <h1>Carina Pahl Skärlind</h1>
@@ -156,13 +162,13 @@ a {
   <div class="uppdrag">  
 <h1>Andra uppdrag</h1>
 </div>
-  <div class="logosparent">
+<div class="logosparent">
+<div class="logosbaby">
+<img class="small-img" src="http://www.entiros.se/sites/default/files/pictures/schibsted.png" alt="Schibsted logotype"/></div>
     <div class="logosbaby">
-<img src="http://www.entiros.se/sites/default/files/pictures/schibsted.png" alt="Schibsted logotype"/></div>
+      <img class="small-img"  src= "https://rbu.se/wp-content/themes/rbu/assets/media/img/rbu_logotyp_2.png"/></div>
     <div class="logosbaby">
-      <img src= "https://rbu.se/wp-content/themes/rbu/assets/media/img/rbu_logotyp_2.png"/></div>
-    <div class="logosbaby">
-    <img src= "https://www.unionen.se/profiles/unionen/themes/onion/legacy/images/logo_unionen.png"/>
+    <img class="small-img" src= "https://www.unionen.se/profiles/unionen/themes/onion/legacy/images/logo_unionen.png"/>
     </div>
     </div>
 
